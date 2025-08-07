@@ -26,13 +26,14 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 20px;
 }
 
-.header,
-.text {
-    margin-bottom: 8px;
+.container div {
+    margin-bottom: 16px;
 }
 
 .icon {
@@ -62,7 +63,6 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  flex-shrink: 0;
 }
 
 button {
